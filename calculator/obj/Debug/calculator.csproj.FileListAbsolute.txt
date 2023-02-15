@@ -1,0 +1,3 @@
+C:\Users\sis\Documents\iury\calculator\calculator\obj\Debug\calculator.csproj.AssemblyReference.cache
+C:\Users\sis\Documents\iury\calculator\calculator\obj\Debug\calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\sis\Documents\iury\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
