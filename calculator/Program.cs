@@ -59,6 +59,8 @@ namespace calculator
 
                     input = Convert.ToString(Console.ReadLine());
 
+                    Console.Clear();
+
                     double x = 0;
                     double y = 0;
                     double z = 0;
@@ -68,10 +70,11 @@ namespace calculator
                         case "addition":
                         case "1":
                             valid_entry = true;
+                            Console.WriteLine("You chose: Addition\n");
                             Console.WriteLine("Enter first addend:");
-                            x = Console.Read();
+                            x = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Enter second addend:");
-                            y = Console.Read();
+                            y = Convert.ToDouble(Console.ReadLine());
                             z = x + y;
                             Console.WriteLine("Total: " + z);
                             break;
@@ -79,10 +82,11 @@ namespace calculator
                         case "subtraction":
                         case "2":
                             valid_entry = true;
+                            Console.WriteLine("You chose: Subtraction\n");
                             Console.WriteLine("Enter minuend:");
-                            x = Console.Read();
+                            x = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Enter subtrahend:");
-                            y = Console.Read();
+                            y = Convert.ToDouble(Console.ReadLine());
                             z = x - y;
                             Console.WriteLine("Difference: " + z);
                             break;
@@ -90,10 +94,11 @@ namespace calculator
                         case "multiplication":
                         case "3":
                             valid_entry = true;
+                            Console.WriteLine("You chose: Multiplication\n");
                             Console.WriteLine("Enter first factor:");
-                            x = Console.Read();
+                            x = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Enter second factor:");
-                            y = Console.Read();
+                            y = Convert.ToDouble(Console.ReadLine());
                             z = x * y;
                             Console.WriteLine("Product: " + z);
                             break;
@@ -101,10 +106,11 @@ namespace calculator
                         case "division":
                         case "4":
                             valid_entry = true;
+                            Console.WriteLine("You chose: Division\n");
                             Console.WriteLine("Enter dividend:");
-                            x = Console.Read();
+                            x = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Enter divisor:");
-                            y = Console.Read();
+                            y = Convert.ToDouble(Console.ReadLine());
                             z = x / y;
                             Console.WriteLine("Quotient: " + z);
                             break;
@@ -112,10 +118,11 @@ namespace calculator
                         case "mod":
                         case "5":
                             valid_entry = true;
+                            Console.WriteLine("You chose: Mod\n");
                             Console.WriteLine("Enter dividend:");
-                            x = Console.Read();
+                            x = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Enter divisor:");
-                            y = Console.Read();
+                            y = Convert.ToDouble(Console.ReadLine());
                             z = x % y;
                             Console.WriteLine("Remainder: " + z);
                             break;
@@ -123,10 +130,11 @@ namespace calculator
                         case "exponentiation":
                         case "6":
                             valid_entry = true;
+                            Console.WriteLine("You chose: Exponentiation\n");
                             Console.WriteLine("Enter base:");
-                            x = Console.Read();
+                            x = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Enter exponent:");
-                            y = Console.Read();
+                            y = Convert.ToDouble(Console.ReadLine());
                             z = Math.Pow(x, y);
                             Console.WriteLine("Power: " + z);
                             break;
@@ -148,6 +156,7 @@ namespace calculator
                     {
                         valid_entry = true;
                         end_app = false;
+                        Console.Clear();
                     }
 
                     else if (input.ToLower() == "no" || input == "2")

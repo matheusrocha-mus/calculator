@@ -1,3 +1,8 @@
 C:\Users\sis\Documents\iury\calculator\calculator\obj\Debug\calculator.csproj.AssemblyReference.cache
 C:\Users\sis\Documents\iury\calculator\calculator\obj\Debug\calculator.csproj.SuggestedBindingRedirects.cache
 C:\Users\sis\Documents\iury\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\sis\Documents\iury\calculator\calculator\bin\Debug\calculator.exe.config
+C:\Users\sis\Documents\iury\calculator\calculator\bin\Debug\calculator.exe
+C:\Users\sis\Documents\iury\calculator\calculator\bin\Debug\calculator.pdb
+C:\Users\sis\Documents\iury\calculator\calculator\obj\Debug\calculator.exe
+C:\Users\sis\Documents\iury\calculator\calculator\obj\Debug\calculator.pdb
